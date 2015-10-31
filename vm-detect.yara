@@ -1,5 +1,11 @@
 rule vmdetect_misc : vmdetect
 {
+	meta:
+    		author = "@abhinavbom"
+		maltype = "NA"
+		version = "0.1"
+		date = "31/10/2015"
+		description = "Following Rule is referenced from AlienVault's Yara rule repository.This rule contains additional processes and driver names."
 	strings:
 		$vbox1 = "VBoxService" nocase ascii wide
 		$vbox2 = "VBoxTray" nocase ascii wide
