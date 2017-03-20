@@ -18,7 +18,7 @@ strings:
 	$tag5 = "pdf"
 	$tag6 = "zip"
 	$tag7 = "rar"
-    $tag8 = "xlsb"
+    	$tag8 = "xlsb"
 
 condition:
     any of ($meta*) and any of ($tag*)
