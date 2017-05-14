@@ -1,5 +1,5 @@
 
-rule WannaCry_RansomNote {
+rule WannaCry_LockScreenNote {
    meta:
       description = "Rule to detect lock screen message"
       author = "@abhinavbom"
