@@ -11,3 +11,4 @@ rule WannaCry_LockScreenNote {
       ( uint16(0) == 0x3a51 and filesize < 2KB and all of them )
       
       
+}
